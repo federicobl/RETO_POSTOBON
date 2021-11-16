@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Css/Miestilo.css"/>     
+        <link rel="stylesheet" href="../Css/bootstrap.css"/>     
+        <link rel="stylesheet" href="../Icons/css/all.css">  
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/scriptsjs.js"></script>
+        <script src="../js/bootstrap.bundle.js"></script>
+        <title>Registro de Material Reciclado</title>
+
+    </head>
+<body  class="index1">
+                <br>
+        <div id="demo"><h1> Reciclando <h1></div>
+        <br>
+        <!-- aqui tenemos la barra de seleción de opaginas-->> 
+        <ul class="topnav">
+            <li><a href="index4.html">Registro de Material reciclado</a></li>
+            <li><a href="MaterialesRegistrados.php">Material reciclado</a></li>
+            <li class="right" ><a href="index.html">Login</a></li>
+        </ul><br> 
+        <section>
+        <div class="container overflow-hidden">
+        <div class="row gx-5" class="blanco">
+        <form action="registro_materialreciclado.php" method= "POST">
+            <legend>Formulario de Registro de Material reciclado</legend>
+            <div class="input group mb-3">  
+            <label class="form-label">Fecha </label>
+            <input type="date" id="disabledTextInput" class="form-control" name="Fecha" placeholder="Fecha">
+            </div>            
+            <div class="input group mb-3">
+            <label class="form-label">Id del Material </label>
+            <input type="number" class="form-control" name="MaterialId" placeholder="Id del Material">
+            </div>
+            <div class="input group mb-3">
+            <label class="form-label">Peso en kilos</label>
+            <input type="number" id="disabledTextInput" class="form-control" name="Peso" placeholder="Peso">
+            </div>            
+            <div class="input group mb-3">
+            <label class="form-label">Usuario Id</label>
+            <input type="number" id="disabledTextInput" class="form-control" name="UsuarioId" placeholder="Id de Usuario">
+            </div>            
+            <br><br>    
+            <input type="submit" class="btn btn-primary" value="Enviar">
+            <button type="reset" class="btn btn-primary">Reestablecer</button>
+        </form>
+        </div>
+        </div>
+        </div>
+        </section>
+
+</body>
+<br><br>
+    <div class="container overflow-hidden" style="text-align: center">
+Copyright 2021 /realizado por Federico Bustos
+    </div>
+<br>
+</html>

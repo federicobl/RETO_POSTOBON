@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Css/Miestilo.css"/>     
+        <link rel="stylesheet" href="../Css/bootstrap.css"/>     
+        <link rel="stylesheet" href="../Icons/css/all.css">  
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/scriptsjs.js"></script>
+        <script src="../js/bootstrap.bundle.js"></script>
+        <title>Registro de Materiales</title>
+
+    </head>
+<body  class="index5">
+        <br>
+        <div id="demo"><h1> Reciclando <h1></div>
+        <br>
+        <!-- aqui tenemos la barra de seleción de opaginas-->> 
+        <ul class="topnav">
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="index1.html">Registro de Usuario</a></li>
+            <li><a class="active" href="index2.html">Registro de Materiales</a></li>
+            <li><a href="index3.html">Registro de Tipos de materiales</a></li>
+            <li class="right" ><a href="index.html">Login</a></li>
+        </ul><br> 
+        
+        <section>
+        <div class="container overflow-hidden">
+        <div class="row gx-5" class="blanco">
+        <form action="registro_materiales.php" method= "POST">
+            <legend>Registro Materiales</legend>
+            <div class="input group mb-3">
+            <label class="form-label">Nombre de Material </label>
+            <input type="text" class="form-control" name="NombreMaterial" placeholder="Nombre del material">
+            </div>
+            <div class="input group mb-3">  
+            <label class="form-label">Caracteristicas </label>
+            <input type="text" class="form-control" name="Tipo_Material" placeholder="Caracteristicas">
+            </div>            
+            <div class="input group mb-3">  
+            <label class="form-label">Tipo de Material </label>
+            <input type="number" class="form-control" name="Tipo_Material" placeholder="Tipo de Material">
+            </div>            
+            <br><br>
+            <div>
+            <input type="submit" class="btn btn-primary" value="Enviar">
+            <button type="reset" class="btn btn-primary">Reestablecer</button>
+       </div>
+            </form>
+        </div>
+        </div>
+        </div>
+        </section>
+
+</body>
+
+<br><br>
+    <div class="container overflow-hidden" style="text-align: center">
+Copyright 2021 /realizado por Federico Bustos
+    </div>
+<br>
+</html>
